@@ -1,0 +1,231 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head>
+<meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=Edge"><meta id="myViewport" content="width=device-width,initial-scale=1" name="viewport"><link href="css/bootstrap.min.bb884d3b.css" rel="stylesheet">
+    <script src="js/jquery.min.5b63fee7.js" type="text/javascript"></script>
+    <script src="js/placeholders.jquery.min.d659806f.js" type="text/javascript"></script>
+    
+    <style type="text/css">
+        html,
+        body,
+        form {
+            background-color: transparent !important;
+        }
+    </style>
+
+
+     <script type="text/javascript" language="javascript">
+
+         $(document).ready(function () {
+             $(window).on('load',
+                 function () {
+                 $("html body form").removeClass("background-color");
+                 var $elem = $('html');
+                 //$elem.css('overflow-y', 'scroll');
+
+                 if ($(".logo-container").hasClass("logo-no-shape")) {
+                     $("#titleSearch").css("margin-top", "60px");
+                     $("#titleSearchIc").css("margin-top", "60px");
+                     $("#titleFound").css("margin-top", "60px");
+                     $("#titleIc").css("margin-top", "60px");
+                     $("#titleError").css("margin-top", "60px");
+
+                 } else {
+                     $("#titleSearch").css("margin-top", "0px");
+                     $("#titleSearchIc").css("margin-top", "0px");
+                     $("#titleFound").css("margin-top", "0px");
+                     $("#titleIc").css("margin-top", "0px");
+                     $("#titleError").css("margin-top", "0px");
+                 }
+             });
+         });
+
+
+         $(window).on('orientationchange',
+             function() {
+
+                 if ($(".logo-container").hasClass("logo-no-shape")) {
+                     $("#titleSearch").css("margin-top", "60px");
+                     $("#titleSearchIc").css("margin-top", "60px");
+                     $("#titleFound").css("margin-top", "60px");
+                     $("#titleIc").css("margin-top", "60px");
+                     $("#titleError").css("margin-top", "60px");
+
+                 } else {
+                     $("#titleSearch").css("margin-top", "0px");
+                     $("#titleSearchIc").css("margin-top", "0px");
+                     $("#titleFound").css("margin-top", "0px");
+                     $("#titleIc").css("margin-top", "0px");
+                     $("#titleError").css("margin-top", "0px");
+                 }
+             });
+
+         $(window).resize(function() {
+             
+             if ($(".logo-container").hasClass("logo-no-shape")) {
+                 $("#titleSearch").css("margin-top", "60px");
+                 $("#titleSearchIc").css("margin-top", "60px");
+                 $("#titleFound").css("margin-top", "60px");
+                 $("#titleIc").css("margin-top", "60px");
+                 $("#titleError").css("margin-top", "60px");
+
+             } else {
+                 $("#titleSearch").css("margin-top", "0px");
+                 $("#titleSearchIc").css("margin-top", "0px");
+                 $("#titleFound").css("margin-top", "0px");
+                 $("#titleIc").css("margin-top", "0px");
+                 $("#titleError").css("margin-top", "0px");
+             }
+
+
+         });
+
+     </script>
+      
+    <link href="css/61bc2c44c3e94801ac8e877c603bfde0_fbea99982e804c13965a58566727122d.css" rel="stylesheet"><title>
+
+</title>
+    <script type="text/javascript">
+        function ClientSideClick(myButton) {
+            // Client side validation
+            if (typeof (Page_ClientValidate) == 'function') {
+                if (Page_ClientValidate() == false)
+                { return false; }
+            }
+
+            //make sure the button is not of type "submit" but "button"
+            if (myButton.getAttribute('type') == 'button') {
+                // disable the button
+                myButton.disabled = true;
+            }
+            return true;
+        }
+    </script>      
+</head>
+<body class="background-photo">
+    
+    <form method="post" action="./recovery.aspx" id="form1">
+<div class="aspNetHidden">
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="">
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="rJyvQzJEfQ61fw0ZLBo5B4PEmQR7n5sbT3+ZBw7krvz0Tr/nxX79L9WqSnGMZQGhjLBuSFmxkdq9xjK8C756q7aPmx9O9GopjfAnU9L9w+SULDOVGJKGPlAUtDgkmeitbh09ersf3BAVHSFgphyTElTBZ4SDYQ2WX9TBa4BNYO8k1fjHOackPJeMqWvR8U04KluRu7WOM38aj7iOFyfCp4j/xFBz3OnF0Q5KLAwtZb3YV9wmHVyoDF7QhBLnYmZPlcEsZjGpcB8vDLF/ZuTkyd3uLhYOgedcKqNE9QNRQuLosg1o6wlq5CpaKN6rjxIZIFqAq4NQnpLv0MT+PBCyexXy0RAjUg4Y83+5gQsSn5o5Ski+z0hPnlJ+RI8e7Y0fAvZ8ySLaAajiOtI2/ua/Ap6xl2UJwWoO8H/OlwyXreVjTDJgh76hqUhERv+4EZ2en2rTPHl++QPBnNB4hhkqembnMIVGxUGlcPAbEaXz2Pwit3b+uH/KvHCrCxaU4KCM5rB5wg9lbD7CVDbKgv+ezzER0j/PI14VMu88gz/wvtuNLeT/dySH30QkMgdV/rebJG+NRxsf9nzAtMVfMoupJz92WG8=">
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['form1'];
+if (!theForm) {
+    theForm = document.form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="WebResource.axd" type="text/javascript"></script>
+
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="8A575511">
+	<input type="hidden" name="__VIEWSTATEENCRYPTED" id="__VIEWSTATEENCRYPTED" value="">
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="Xt3pN2Xh82jlxSf8U+nXiozxK8ZtHX0q7HJBR6EMdLRowp0R1Q1rPu3V3f0rNR9xHWCI8ZfxyfqYJBTTnfRqZ+3ivp4mUOrr+T7sj/EURtcuoFH4SFpJzJxGyZxk4KokDJHhKEZ9UoqnnnkBcJYzvP3cx6+7zkpAhCmBIGne3gsCMggB">
+</div>
+        
+
+            <div class="login-container logo-square-shape">
+
+            <div class="login-body">
+                <div class="table-wrapper">
+                    <div class="table-cell">  
+                        <div class="login-card">
+                        
+                            <div data-fip-name="LoginLogoWrapper" class="login-logo-wrapper" style="background-color:#ffffff ">
+                        
+
+                            <div class="login-logo" data-fip-name="LoginLogoImage"></div>
+                        </div>     
+
+                            
+
+                            <h2 id="titleSearchIc" class="">
+                                    Reset Password
+                            </h2>
+            
+                            
+
+                            
+            
+                                                  
+
+                            <div id="pnRecover">
+	
+                                <div class="text-center margin-bottom-10">
+                                    <span id="txtSend">Input your email address and we'll send you the email with instructions.</span>   
+                                </div>
+                                <div class="margin-bottom-20">
+                                    <input name="txtEmail" type="text" id="txtEmail" class="form-control input-white login-control" autocomplete="off" usesubmitbehavior="true" placeholder="Email Address">
+                                </div>
+
+                                <div id="rowIdentifier" class="margin-bottom-20" style="display: none">
+                                    <input name="txtIdentifier" type="text" id="txtIdentifier" class="form-control input-white login-control" autocomplete="off" usesubmitbehavior="true" placeholder="Username">
+                                </div>
+
+                                <div class="text-center">
+                                          
+                                </div>
+                                  
+                                <div class="text-center">
+                                    
+                                </div>
+
+                                <div class="text-center">
+                                       
+                                </div>
+
+                                <input type="button" name="btRecover" value="Send" onclick="ClientSideClick(this);WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(" btrecover",="" "",="" true,="" false,="" true))"="" id="btRecover" class="btn btn-secondary btn-block background-color-secondary login-control no_margin">     
+                                
+                                <ul id="loginLink" class="margin-top-20" style="list-style:none"> 
+                                    <li><a class="login-link" href="https://remnacag.com/login/">Return to login page</a></li>
+                                </ul>
+                            
+</div>
+                    
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="login-footer">
+                © REMNAC Investment AG all rights reserved
+            </div>
+        </div><!-- /.login-container -->
+           
+        <script language="javascript">
+            $(document).ready(function () {
+                var ua = window.navigator.userAgent.toLowerCase();;
+                var msie = ((ua.indexOf("msie") != -1 || ua.indexOf("trident/") != -1) && (ua.indexOf("opera") == -1) && (ua.indexOf("webtv") == -1));
+
+                //Do not focus in IE (but in placeholder)
+                if (!msie) {
+                    var identifierVisible = $("#rowIdentifier").is(':visible');
+                    if (identifierVisible) {
+                        $("#txtIdentifier").focus();
+                    }
+                    else {
+                        $("#txtEmail").focus();
+                    }
+                }
+                else {
+                    $("#txtEmail").parent().focus();
+                }
+            });
+        </script>
+    </form>
+
+
+</body></html>
